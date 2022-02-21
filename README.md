@@ -1,1 +1,1 @@
-# AlgorithmStudy-Step1--DataStructure
+# AlgorithmStudy-Step1-DataStructure
