@@ -5,8 +5,6 @@ class Stack(list) :
 	
     def peek(self) :
         return self[-1]
-        self[len(self)-1]
-
 
 s = Stack()
 s.push(1)
