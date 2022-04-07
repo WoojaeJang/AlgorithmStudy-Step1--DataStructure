@@ -175,7 +175,7 @@ print("my queue is : ", q)			my queue is :  [5, 10]
 <br/><br/>
 
 
-## [🔬 문제풀이]
+## [🥇 문제풀이]
 
 ### W01_1_주식가격
 [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42584)  
