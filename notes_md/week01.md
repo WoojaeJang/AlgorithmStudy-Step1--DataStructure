@@ -180,12 +180,11 @@ print("my queue is : ", q)			my queue is :  [5, 10]
 ### W01_1_주식가격
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42584)
 - [풀이 보기](./../code/practice/w01_prc_1_주식가격.py)
-
 <br/>
 
 ### W01_2_기능개발
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42586)
-- [풀이 보기]("./../code/practice/w01_prc_2_기능개발.py")
+- [풀이 보기](./../code/practice/w01_prc_2_기능개발.py)
 
 <br/>
 
