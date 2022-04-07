@@ -1,5 +1,5 @@
 # 처음 나의 풀이
-def solution(prices):
+def my_solution(prices):
     
     answer = []
     
@@ -19,11 +19,10 @@ def solution(prices):
 '''
 
 
-
 # deque 활용
 from collections import deque
 
-def solution(prices):
+def good_solution_1(prices):
     
     queue = deque(prices)
     answer = []
@@ -37,7 +36,6 @@ def solution(prices):
                 break
         answer.append(count)
     return answer
-
 '''
 진짜 너무 짜증나는게 왜 이건되고
 내가 한건 안되는지... 진짜 열받는다...
@@ -45,9 +43,8 @@ def solution(prices):
 '''
 
 
-
 # pop 안쓰고 풀기
-def solution(prices):
+def good_solution_2(prices):
     answer = [0]*len(prices)
     
     for i in range(len(prices)-1) :
@@ -59,7 +56,17 @@ def solution(prices):
                 break             
     
     return answer
-
 '''
 스택 큐라고 해서 굳이 pop 쓰려고 안해도 될듯싶다.
 '''
+
+
+if __name__ == "__main__" :
+    prices = [1, 2, 3, 2, 3]
+    
+    print(my_solution(prices))
+    
+    prices = [1, 2, 3, 2, 3]
+    
+    print(good_solution_1(prices))
+    print(good_solution_2(prices))
