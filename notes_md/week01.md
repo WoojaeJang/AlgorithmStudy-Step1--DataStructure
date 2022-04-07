@@ -185,12 +185,12 @@ print("my queue is : ", q)			my queue is :  [5, 10]
 
 ### W01_2_기능개발
 [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42586)  
-[풀이]("../code/lecture/w01_prc_2_기능개발.py")
+[풀이]("./../code/practice/w01_prc_2_기능개발.py")
 
 <br/>
 
 ### W01_3_다리를 지나는 트럭
 [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42583)  
-[풀이](../code/lecture/w01_prc_3_다리를 지나는 트럭.py)
+[풀이](./../code/practice/w01_prc_3_다리를지나는트럭.py)
 
 <hr>
