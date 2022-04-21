@@ -164,16 +164,16 @@ def solution(trump) :
 
 ### W02_1_모의고사
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42840)
-- [풀이 보기](./../code/practice/w02_prc_1_모의고사.py)
+- [풀이 보기](./../code/practice/prc_w02_1_모의고사.py)
 
 <br/>
 
 ### W02_2_소수 찾기
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42839)
-- [풀이 보기](./../code/practice/w02_prc_2_소수찾기.py)
+- [풀이 보기](./../code/practice/prc_w02_2_소수찾기.py)
 
 <br/>
 
 ### W02_3_숫자카드2
 - [문제 원본 보기](https://www.acmicpc.net/problem/10816)
-- [풀이](./../code/practice/w02_prc_3_숫자카드2.py)
+- [풀이](./../code/practice/prc_w02_3_숫자카드2.py)
