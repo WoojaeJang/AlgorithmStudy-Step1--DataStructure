@@ -172,14 +172,15 @@ print("my queue is : ", q)			my queue is :  [5, 10]
 #### 큐의 활용
 - 프린터 인쇄 대기열
 - 너비 우선 탐색(BFS)
-<br/><br/>
 
+<br/><br/>
 
 ## [🥇 문제풀이]
 
 ### W01_1_주식가격
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42584)
 - [풀이 보기](./../code/practice/w01_prc_1_주식가격.py)
+
 <br/>
 
 ### W01_2_기능개발
@@ -192,4 +193,3 @@ print("my queue is : ", q)			my queue is :  [5, 10]
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42583)
 - [풀이](./../code/practice/w01_prc_3_다리를지나는트럭.py)
 
-<hr>
