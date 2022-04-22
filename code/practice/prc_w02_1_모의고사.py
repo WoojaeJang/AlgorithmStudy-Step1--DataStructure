@@ -45,6 +45,7 @@ def good_solution(answers):
     return result
 
 if __name__ == "__main__" :
+    
     answers = [1,3,2,4,2]
     
     print(my_solution(answers))
