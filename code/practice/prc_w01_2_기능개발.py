@@ -35,10 +35,12 @@ def good_solution_1(progresses, speeds):
 
 
 if __name__ == "__main__" :
+    
     progresses = [95, 90, 99, 99, 80, 99]
     speeds = [1, 1, 1, 1, 1, 1]
     
     print(my_solution(progresses, speeds))
+    
     print(good_solution_1(progresses, speeds))
     
     

@@ -62,6 +62,7 @@ def good_solution_2(prices):
 
 
 if __name__ == "__main__" :
+    
     prices = [1, 2, 3, 2, 3]
     
     print(my_solution(prices))
@@ -69,4 +70,5 @@ if __name__ == "__main__" :
     prices = [1, 2, 3, 2, 3]
     
     print(good_solution_1(prices))
+    
     print(good_solution_2(prices))
