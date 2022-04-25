@@ -22,6 +22,10 @@ def my_solution(answers):
             answer.append(i+1)
             
     return answer
+'''
+나름 잘 푼듯??
+'''
+
 
 def good_solution(answers):
     pattern1 = [1,2,3,4,5]
@@ -43,10 +47,15 @@ def good_solution(answers):
             result.append(idx+1)
 
     return result
+'''
+내 풀이와 거의 비슷?
+'''
 
 if __name__ == "__main__" :
     
     answers = [1,3,2,4,2]
     
     print(my_solution(answers))
+    
     print(good_solution(answers))
+    
