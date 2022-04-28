@@ -109,23 +109,17 @@
 #### 깊이우선탐색(DFS) 예시코드 - 미로찾기
 
 ```python
-maps = [[0, 0, 0, 0, 0, 0],
-        [1, 0, 1, 1, 1, 0],
-        [0, 0, 1, 0, 1, 0],
-        [0, 1, 1, 0, 0, 0],
-        [0, 0, 1, 1, 1, 1],
-        [1, 0, 0, 0, 0, 0]]
-start = [0, 0]
-dest = [5, 5]
-
 def solution(maps, start, dest) :
     stack = [start]
+    hori = len(maps[0])
+    verti = len(maps)
 
     # 스택에 데이터가 있다면 계속 진행
     while len(stack) > 0 :
 
         # 스택의 가장 마지막 데이터 추출
         now = stack.pop()
+        print(now)
         
         # 정답 여부 검사
         if now == dest :
@@ -139,31 +133,43 @@ def solution(maps, start, dest) :
             # 갈 수 있는 길이라면 스택에 추가하고 방문여부를 2로 표시
             if maps[y][x-1] == 0 :
                 stack.append([y,x-1])
-                map[y][x-1] == 2
+                maps[y][x-1] = 2
 
         # 오른쪽으로 이동할 수 있다면
         if x + 1 < hori :
+            # 갈 수 있는 길이라면 스택에 추가하고 방문여부를 2로 표시
             if maps[y][x+1] == 0 :
-                # 갈 수 있는 길이라면 스택에 추가하고 방문여부를 2로 표시
                 stack.append([y,x+1])
-                map[y][x+1] == 2
+                maps[y][x+1] = 2
 
         # 위로 이동할 수 있다면
         if y - 1 > -1 :
+            # 갈 수 있는 길이라면 스택에 추가하고 방문여부를 2로 표시
             if maps[y-1][x] == 0 :
-                # 갈 수 있는 길이라면 스택에 추가하고 방문여부를 2로 표시
                 stack.append([y-1,x])
-                map[y-1][x] == 2
+                maps[y-1][x] = 2
 
         # 아래로 이동할 수 있다면
         if y + 1 < verti :
+            # 갈 수 있는 길이라면 스택에 추가하고 방문여부를 2로 표시
             if maps[y+1][x] == 0 :
-                # 갈 수 있는 길이라면 스택에 추가하고 방문여부를 2로 표시
                 stack.append([y+1,x])
-                map[y+1][x] == 2
+                maps[y+1][x] = 2
 
     # 스택에 데이터가 없으면 False
     return False
+
+
+maps = [[0, 0, 0, 0, 0, 0],
+        [1, 0, 1, 1, 1, 0],
+        [0, 0, 1, 0, 1, 0],
+        [0, 1, 1, 0, 0, 0],
+        [0, 0, 1, 1, 1, 1],
+        [1, 0, 0, 0, 0, 0]]
+start = [0, 0]
+dest = [5, 5]
+
+print(solution(maps, start, dest))
 
 ```
 
@@ -242,21 +248,16 @@ def solution(maps, start, dest) :
 #### 너비우선탐색(BFS) 예시코드 - 최단경로찾기
 
 ```python
-data = [[1, 2], [1, 5], [1, 6], [2, 3], [2, 11], [3, 6], [3, 7], [3, 8], 
-        [4, 8], [4, 12], [5, 6], [5, 9], [5, 11], [6, 12],
-        [7, 8], [7, 10], [8, 11], [9, 10]]
-start = 1
-dest = 12
-
-def solution(data, start, dest)
+def solution(data, start, dest) :
     # 방문 여부 표시할 리스트 생성
     visited = [False]*max(map(max, data))
 
     # 시작점 방문
     visited[start-1] = True
+    queue = [start]
 
     answer = 0
-    queue = []
+    
     # 큐에 데이터가 있다면 계속 진행
     while len(queue) > 0 :
 
@@ -277,17 +278,25 @@ def solution(data, start, dest)
                 # 방문하지 않은 연결된 길이라면 큐에 추가하고 방문 표시
                 if i[0] == now and visited[i[1]-1] == False :
                     queue.append(i[1])
-                    visisted[i[1]-1] = True
+                    visited[i[1]-1] = True
 
                 # 방문하지 않은 연결된 길이라면 큐에 추가하고 방문 표시
                 elif i[1] == now and visited[i[0]-1] == False :
                     queue.append(i[0])
-                    visisted[i[0]-1] = True
+                    visited[i[0]-1] = True
 
         # 거리 1 증가
         answer += 1
 
     return answer
+
+
+data = [[1, 2], [1, 5], [1, 6], [2, 3], [2, 11], [3, 6], [3, 7], [3, 8], 
+        [4, 8], [4, 12], [5, 6], [5, 9], [5, 11], [6, 12],
+        [7, 8], [7, 10], [8, 11], [9, 10]]
+start = 1
+dest = 12
+print(solution(data, start, dest))
 
 ```
 
