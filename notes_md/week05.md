@@ -18,4 +18,4 @@
 
 ### W05_3_전화번호 목록
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42577)
-- [풀이](./../code/practice/prc_w05_3_전화번호목록.py)
+- [풀이 보기](./../code/practice/prc_w05_3_전화번호목록.py)

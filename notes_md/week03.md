@@ -309,4 +309,4 @@ def solution(data, start, dest)
 
 ### W03_3_타겟 넘버
 - [문제 원본 보기](https://www.acmicpc.net/problem/10816)
-- [풀이](./../code/practice/prc_w03_3_타겟넘버.py)
+- [풀이 보기](./../code/practice/prc_w03_3_타겟넘버.py)

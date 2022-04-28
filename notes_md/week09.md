@@ -18,4 +18,4 @@
 
 ### W09_3_구명보트
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42885)
-- [풀이](./../code/practice/prc_w09_3_구명보트.py)
+- [풀이 보기](./../code/practice/prc_w09_3_구명보트.py)

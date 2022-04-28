@@ -18,4 +18,4 @@
 
 ### W06_3_괄호 변환
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/60058)
-- [풀이](./../code/practice/prc_w06_3_괄호변환.py)
+- [풀이 보기](./../code/practice/prc_w06_3_괄호변환.py)

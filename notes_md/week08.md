@@ -18,4 +18,4 @@
 
 ### W08_3_가장 먼 노드
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/49189)
-- [풀이](./../code/practice/prc_w08_3_가장먼노드.py)
+- [풀이 보기](./../code/practice/prc_w08_3_가장먼노드.py)

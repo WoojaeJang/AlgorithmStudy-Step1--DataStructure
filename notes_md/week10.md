@@ -18,4 +18,4 @@
 
 ### W10_3_이중우선순위큐
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42628)
-- [풀이](./../code/practice/prc_w10_3_이중우선순위큐.py)
+- [풀이 보기](./../code/practice/prc_w10_3_이중우선순위큐.py)

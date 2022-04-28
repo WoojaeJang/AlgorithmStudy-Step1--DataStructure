@@ -191,5 +191,5 @@ print("my queue is : ", q)			my queue is :  [5, 10]
 
 ### W01_3_다리를 지나는 트럭
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42583)
-- [풀이](./../code/practice/prc_w01_3_다리를지나는트럭.py)
+- [풀이 보기](./../code/practice/prc_w01_3_다리를지나는트럭.py)
 

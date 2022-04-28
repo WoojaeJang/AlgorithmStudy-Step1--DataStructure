@@ -176,4 +176,4 @@ def solution(trump) :
 
 ### W02_3_숫자카드2
 - [문제 원본 보기](https://www.acmicpc.net/problem/10816)
-- [풀이](./../code/practice/prc_w02_3_숫자카드2.py)
+- [풀이 보기](./../code/practice/prc_w02_3_숫자카드2.py)

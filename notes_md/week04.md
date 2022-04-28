@@ -18,4 +18,4 @@
 
 ### W04_3_비밀지도
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/17681)
-- [풀이](./../code/practice/prc_w04_3_비밀지도.py)
+- [풀이 보기](./../code/practice/prc_w04_3_비밀지도.py)

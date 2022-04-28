@@ -18,4 +18,4 @@
 
 ### W07_3_N으로 표현
 - [문제 원본 보기](https://programmers.co.kr/learn/courses/30/lessons/42895)
-- [풀이](./../code/practice/prc_w07_3_N으로표현.py)
+- [풀이 보기](./../code/practice/prc_w07_3_N으로표현.py)
