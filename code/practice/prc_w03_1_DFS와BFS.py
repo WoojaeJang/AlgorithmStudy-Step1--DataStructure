@@ -62,12 +62,12 @@ def my_solution(N, M, V, data) :
 
 
 
-# if __name__ == "__main__" :
+if __name__ == "__main__" :
 
-N, M, V = list(map(int, input().split()))
-data = []
-for i in range(M) :
-    data.append(list(map(int, input().split())))
+    N, M, V = list(map(int, input().split()))
+    data = []
+    for i in range(M) :
+        data.append(list(map(int, input().split())))
 
-my_solution(N, M, V, data)
+    my_solution(N, M, V, data)
 
